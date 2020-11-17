@@ -3,7 +3,7 @@ const Languages = {
     FRENCH: 'french',
     KOREAN: 'korean',
     SPANISH: 'spanish',
-    ITALIAN: 'italian'
+    ITALIAN: 'italian',
     // add a new language here
 }
 
@@ -22,7 +22,11 @@ const LanguageIconData = {
         icon: "https://cdn.betterttv.net/emote/5f67aece97645403e813f0fa/1x"
     },
     [Languages.SPANISH]: {
-        icon: "
+        icon: " "
+    },
+    [Languages.ITALIAN]: {
+        icon: " "
+    },
     // add icon for your new language here
 }
 
@@ -44,6 +48,7 @@ function getTranslationTable(params) {
                 [Languages.FRENCH]: "Anglais",
                 [Languages.KOREAN]: "영국인",
                 [Languages.SPANISH]: "Ingles",
+                [Languages.ITALIAN]: "Inglese"
                 // add your new language translation to everything
             },
             "drop-down-label-french":{
@@ -51,18 +56,21 @@ function getTranslationTable(params) {
                 [Languages.FRENCH]: "Français",
                 [Languages.KOREAN]: "프랑스어",
                 [Languages.SPANISH]: "Frances",
+                [Languages.ITALIAN]: "Francese",
             },
             "drop-down-label-korean":{
                 [Languages.ENGLISH]: "Korean",
                 [Languages.FRENCH]: "Coréen",
                 [Languages.KOREAN]: "한국어",
                 [Languages.SPANISH]: "Coreano",
+                [Languages.ITALIAN]: "Coreano",
             },
             "page-title": {
                 [Languages.ENGLISH]: "Welcome to Twiri",
                 [Languages.FRENCH]: "Bienvenue à Twiri",
                 [Languages.KOREAN]: "Twiri에 오신 것을 환영합니다",
                 [Languages.SPANISH]: "Bienvenido a Twiri",
+                [Languages.ITALIAN]: "Benvenuto a Twiri",
             },
             "logoText": {
                 [Languages.ENGLISH]: "Twiri, Stream seeker",
