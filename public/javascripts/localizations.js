@@ -2,6 +2,8 @@ const Languages = {
     ENGLISH: 'english', // make sure this value is the same you put after the 'drop-down-label-' for the dropdown
     FRENCH: 'french',
     KOREAN: 'korean',
+    SPANISH: 'spanish',
+    ITALIAN: 'italian'
     // add a new language here
 }
 
@@ -19,6 +21,8 @@ const LanguageIconData = {
     [Languages.KOREAN]: {
         icon: "https://cdn.betterttv.net/emote/5f67aece97645403e813f0fa/1x"
     },
+    [Languages.SPANISH]: {
+        icon: "
     // add icon for your new language here
 }
 
@@ -39,27 +43,32 @@ function getTranslationTable(params) {
                 [Languages.ENGLISH]: "English",
                 [Languages.FRENCH]: "Anglais",
                 [Languages.KOREAN]: "영국인",
+                [Languages.SPANISH]: "Ingles",
                 // add your new language translation to everything
             },
             "drop-down-label-french":{
                 [Languages.ENGLISH]: "French",
                 [Languages.FRENCH]: "Français",
                 [Languages.KOREAN]: "프랑스어",
+                [Languages.SPANISH]: "Frances",
             },
             "drop-down-label-korean":{
                 [Languages.ENGLISH]: "Korean",
                 [Languages.FRENCH]: "Coréen",
                 [Languages.KOREAN]: "한국어",
+                [Languages.SPANISH]: "Coreano",
             },
             "page-title": {
                 [Languages.ENGLISH]: "Welcome to Twiri",
                 [Languages.FRENCH]: "Bienvenue à Twiri",
                 [Languages.KOREAN]: "Twiri에 오신 것을 환영합니다",
+                [Languages.SPANISH]: "Bienvenido a Twiri",
             },
             "logoText": {
                 [Languages.ENGLISH]: "Twiri, Stream seeker",
                 [Languages.FRENCH]: "Twiri, investigatrice des streams",
-                [Languages.KOREAN]: "트위리, 스트림 탐색자"
+                [Languages.KOREAN]: "트위리, 스트림 탐색자",
+                [Languages.SPANISH]: "Twiri, buscador de stream",
             },
             "copyright-text": {
                 [Languages.ENGLISH]: "Copyright © 2020 JinriTV",
